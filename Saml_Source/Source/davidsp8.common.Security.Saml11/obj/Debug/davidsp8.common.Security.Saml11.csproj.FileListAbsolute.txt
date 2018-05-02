@@ -1,0 +1,10 @@
+D:\GitHub\SAML1\Saml_Source\Source\davidsp8.common.Security.Saml11\bin\Debug\davidsp8.common.Security.Saml11.dll
+D:\GitHub\SAML1\Saml_Source\Source\davidsp8.common.Security.Saml11\bin\Debug\davidsp8.common.Security.Saml11.pdb
+D:\GitHub\SAML1\Saml_Source\Source\davidsp8.common.Security.Saml11\bin\Debug\davidsp8.common.Security.Saml.dll
+D:\GitHub\SAML1\Saml_Source\Source\davidsp8.common.Security.Saml11\bin\Debug\log4net.dll
+D:\GitHub\SAML1\Saml_Source\Source\davidsp8.common.Security.Saml11\bin\Debug\davidsp8.common.Security.Saml.pdb
+D:\GitHub\SAML1\Saml_Source\Source\davidsp8.common.Security.Saml11\obj\Debug\davidsp8.common.Security.Saml11.csprojResolveAssemblyReference.cache
+D:\GitHub\SAML1\Saml_Source\Source\davidsp8.common.Security.Saml11\obj\Debug\davidsp8.common.Security.Saml11.csproj.CoreCompileInputs.cache
+D:\GitHub\SAML1\Saml_Source\Source\davidsp8.common.Security.Saml11\obj\Debug\davidsp8.common.Security.Saml11.csproj.CopyComplete
+D:\GitHub\SAML1\Saml_Source\Source\davidsp8.common.Security.Saml11\obj\Debug\davidsp8.common.Security.Saml11.dll
+D:\GitHub\SAML1\Saml_Source\Source\davidsp8.common.Security.Saml11\obj\Debug\davidsp8.common.Security.Saml11.pdb

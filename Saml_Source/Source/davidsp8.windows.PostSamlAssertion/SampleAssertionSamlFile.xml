@@ -1,0 +1,27 @@
+﻿<Response xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="_32a2fc56-7865-4e36-bcfb-c36bda3dc4f2" Version="2.0" IssueInstant="2018-05-02T01:35:57.1065842Z" Destination="Telstra IdP" xmlns="urn:oasis:names:tc:SAML:2.0:protocol">
+  <Issuer xmlns="urn:oasis:names:tc:SAML:2.0:assertion">Wontok</Issuer>
+  <Status>
+    <StatusCode Value="urn:oasis:names:tc:SAML:2.0:status:Success" />
+  </Status>
+  <Assertion Version="2.0" ID="_16e837ea-611b-4533-b1be-13cbc15485ce" IssueInstant="2018-05-02T01:36:11.3649796Z" xmlns="urn:oasis:names:tc:SAML:2.0:assertion">
+    <Issuer>Wontok</Issuer>
+    <Subject>
+      <NameID NameQualifier="wontok.com">wontok one</NameID>
+      <SubjectConfirmation Method="urn:oasis:names:tc:SAML:2.0:cm:bearer">
+        <SubjectConfirmationData NotOnOrAfter="2018-05-02T01:41:18.2727962Z" Recipient="Telstra IdP" />
+      </SubjectConfirmation>
+    </Subject>
+    <Conditions NotBefore="2018-05-02T01:36:11.3649796Z" NotOnOrAfter="2018-05-02T01:41:11.3654797Z">
+      <AudienceRestriction>
+        <Audience>wontok.com</Audience>
+      </AudienceRestriction>
+    </Conditions>
+    <AuthnStatement AuthnInstant="2018-05-02T01:36:11.366481Z">
+      <AuthnContext>
+        <AuthnContextClassRef>AuthnContextClassRef</AuthnContextClassRef>
+      </AuthnContext>
+    </AuthnStatement>
+    <AttributeStatement />
+  </Assertion>
+</Response>
+

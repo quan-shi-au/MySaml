@@ -1,0 +1,11 @@
+<?xml version="1.0" standalone="yes"?>
+<ConfigurationData xmlns="http://tempuri.org/ConfigurationData.xsd">
+  <Configuration>
+    <Recipient>Telstra IdP</Recipient>
+    <Target>telstra</Target>
+    <Subject>wontok one</Subject>
+    <Issuer>Wontok</Issuer>
+    <Domain>wontok.com</Domain>
+    <Version>2.0</Version>
+  </Configuration>
+</ConfigurationData>
