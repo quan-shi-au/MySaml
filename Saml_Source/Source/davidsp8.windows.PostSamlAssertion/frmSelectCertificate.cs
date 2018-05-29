@@ -45,7 +45,7 @@ namespace davidsp8.windows.PostSamlAssertion {
                 store.Open(OpenFlags.ReadOnly);
                 X509Certificate2Collection coll = store.Certificates.Find(
                     (X509FindType)Enum.Parse(typeof(X509FindType), cboxFindMethod.Text), txtFindValue.Text, true);
-                if (coll.Count < 1) {
+                if (coll.Count <1) {
                     throw new ArgumentException("Unable to locate certificate");
                 }
                 cert = coll[0];

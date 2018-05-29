@@ -101,15 +101,15 @@ namespace davidsp8.windows.PostSamlAssertion {
 
                 string postData = "";
                 // Set Parameters to the method call to either the configuration value or a default value
-                StoreLocation storeLocation = configurationData.Configuration.Rows[0]["CertStoreLocation"].ToString().Length > 0 ? (StoreLocation)Enum.Parse(typeof(StoreLocation),
+                StoreLocation storeLocation = configurationData.Configuration.Rows[0]["CertStoreLocation"].ToString().Length> 0 ? (StoreLocation)Enum.Parse(typeof(StoreLocation),
                     configurationData.Configuration.Rows[0]["CertStoreLocation"].ToString()) : StoreLocation.LocalMachine;
-                StoreName storeName = configurationData.Configuration.Rows[0]["CertStoreName"].ToString().Length > 0 ? (StoreName)Enum.Parse(typeof(StoreName),
+                StoreName storeName = configurationData.Configuration.Rows[0]["CertStoreName"].ToString().Length> 0 ? (StoreName)Enum.Parse(typeof(StoreName),
                                 configurationData.Configuration.Rows[0]["CertStoreName"].ToString()) : StoreName.Root;
-                X509FindType findType = configurationData.Configuration.Rows[0]["CertFindMethod"].ToString().Length > 0 ? (X509FindType)Enum.Parse(typeof(X509FindType),
+                X509FindType findType = configurationData.Configuration.Rows[0]["CertFindMethod"].ToString().Length> 0 ? (X509FindType)Enum.Parse(typeof(X509FindType),
                                 configurationData.Configuration.Rows[0]["CertFindMethod"].ToString()) : X509FindType.FindByThumbprint;
-                string certFileLocation = configurationData.Configuration.Rows[0]["CertFileLocation"].ToString().Length > 0 ?
+                string certFileLocation = configurationData.Configuration.Rows[0]["CertFileLocation"].ToString().Length> 0 ?
                                 configurationData.Configuration.Rows[0]["CertFileLocation"].ToString() : null;
-                string certPassword = configurationData.Configuration.Rows[0]["CertPassword"].ToString().Length > 0 ?
+                string certPassword = configurationData.Configuration.Rows[0]["CertPassword"].ToString().Length> 0 ?
                                 configurationData.Configuration.Rows[0]["CertPassword"].ToString() : null;
                 string certFindKey = configurationData.Configuration.Rows[0]["CertFindKey"].ToString();
                 bool signResponse = this.rbSignResponse.Checked;
@@ -235,7 +235,7 @@ namespace davidsp8.windows.PostSamlAssertion {
                 case true:
                     {
                         if (webBrowser1.Document.Cookie != null) {
-                            for (int i = 0; i < webBrowser1.Document.Cookie.Length; i++) {
+                            for (int i = 0; i <webBrowser1.Document.Cookie.Length; i++) {
                                 webBrowser1.Document.Cookie.Remove(i);
                             }
                         }

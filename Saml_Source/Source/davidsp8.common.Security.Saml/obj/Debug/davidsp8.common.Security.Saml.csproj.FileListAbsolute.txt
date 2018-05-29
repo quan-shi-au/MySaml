@@ -3,3 +3,4 @@ D:\GitHub\SAML1\Saml_Source\Source\davidsp8.common.Security.Saml\bin\Debug\david
 D:\GitHub\SAML1\Saml_Source\Source\davidsp8.common.Security.Saml\obj\Debug\davidsp8.common.Security.Saml.csproj.CoreCompileInputs.cache
 D:\GitHub\SAML1\Saml_Source\Source\davidsp8.common.Security.Saml\obj\Debug\davidsp8.common.Security.Saml.dll
 D:\GitHub\SAML1\Saml_Source\Source\davidsp8.common.Security.Saml\obj\Debug\davidsp8.common.Security.Saml.pdb
+D:\GitHub\SAML1\Saml_Source\Source\davidsp8.common.Security.Saml\obj\Debug\davidsp8.common.Security.Saml.csprojAssemblyReference.cache

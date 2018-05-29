@@ -174,7 +174,7 @@ namespace davidsp8.common.Security.Saml20 {
                 X509Store store = new X509Store(storeName, storeLocation);
                 store.Open(OpenFlags.ReadOnly);
                 X509Certificate2Collection coll = store.Certificates.Find(findType, findValue, true);
-                if (coll.Count < 1) {
+                if (coll.Count <1) {
                     throw new ArgumentException("Unable to locate certificate");
                 }
                 cert = coll[0];

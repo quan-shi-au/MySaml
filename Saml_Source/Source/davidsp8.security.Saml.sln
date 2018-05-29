@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "davidsp8.common.Security.Sa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "davidsp8.web.PostSamlAssertion", "davidsp8.web.PostSamlAssertion\davidsp8.web.PostSamlAssertion.csproj", "{A827C628-3D1F-4FD1-ACA4-9544FADE7B57}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenerateTokenConsol", "GenerateTokenConsol\GenerateTokenConsol.csproj", "{7A2EB09B-7B50-4F12-94BA-54B817D5232C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{A827C628-3D1F-4FD1-ACA4-9544FADE7B57}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A827C628-3D1F-4FD1-ACA4-9544FADE7B57}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A827C628-3D1F-4FD1-ACA4-9544FADE7B57}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A2EB09B-7B50-4F12-94BA-54B817D5232C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A2EB09B-7B50-4F12-94BA-54B817D5232C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A2EB09B-7B50-4F12-94BA-54B817D5232C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A2EB09B-7B50-4F12-94BA-54B817D5232C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
